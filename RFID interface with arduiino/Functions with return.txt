@@ -1,0 +1,33 @@
+
+# 5.Fahrenheit to Celsius Conversion: Write a function convert_to_celsius(fahrenheit) to convert Fahrenheit to Celsius using the formula C = (F - 32) * 5/9.
+
+# 6.Average of a List: Write a function find_average(nums) that takes a list of numbers and returns the average.
+
+# 7.Area of a Circle: Write a function circle_area(radius) that returns the area of a circle given the radius. The formula is Area = π * radius².
+
+# 8.Check Positive or Negative: Write a function is_positive(num) that returns True if the number is positive, otherwise False.
+
+# 9.Reverse a String: Write a function reverse_string(text) that takes a string and returns it reversed.
+
+# 10.Count Vowels in a String: Write a function count_vowels(text) that returns the number of vowels (a, e, i, o, u) in a string.
+
+# 11.Power of a Number: Write a function power(base, exp) that takes two numbers, base and exponent, and returns base raised to the power of exp.
+
+# 12.Is Prime: Write a function is_prime(num) that checks whether a given number is prime or not.
+
+# 13.Sum of List Elements: Write a function sum_list(nums) that returns the sum of all elements in a list.
+
+# 14.Factorial of a Number: Write a function factorial(n) that returns the factorial of a given number n. For example, factorial(5) should return 120.
+
+# 15.Convert Hours to Minutes: Write a function hours_to_minutes(hours) that takes a number of hours and converts it to minutes.
+
+# 16.Count Words in a String: Write a function count_words(text) that returns the number of words in a string. Assume words are separated by spaces.
+
+# 17.Find Minimum in a List: Write a function find_min(nums) that returns the smallest number in a list.
+
+# 18.Palindrome Check: Write a function is_palindrome(text) that checks if a given string is a palindrome (reads the same forwards and backwards).
+
+# 19.Sum of Digits: Write a function sum_of_digits(num) that returns the sum of the digits of a given number. For example, sum_of_digits(123) should return 6.
+
+# 20.Simple Interest Calculation: Write a function simple_interest(principal, rate, time) that calculates the simple interest using the formula: Simple Interest = (Principal * Rate * Time) / 100.
+
