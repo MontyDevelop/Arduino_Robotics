@@ -1,0 +1,7 @@
+#define WIFI_SSID "Free_wifi"
+#define WIFI_PASSWORD "HR@SMB919293"
+
+// ---------------- API Keys ----------------
+#define IMGBB_API_KEY "638443b6206416ba4b41d8bff033cf59"
+#define API_KEY "AIzaSyCllG2iY7lsYv6y8msPpj5fh6NrHdMomw0"
+#define DATABASE_URL "https://fireguard360-e8f63-default-rtdb.asia-southeast1.firebasedatabase.app/"
