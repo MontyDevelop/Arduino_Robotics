@@ -6,45 +6,21 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 #define START_STOP_BUTTON 2
 #define MODE_RESET_BUTTON 3
 
-// =====================================
-// STARTING INDIA TIME
-// Change these values when required
-// =====================================
-
 #define START_HOUR 10
 #define START_MINUTE 30
 #define START_SECOND 0
 
 
-// =====================================
-// MODE
-// 0 = REAL TIME WATCH
-// 1 = STOPWATCH
-// =====================================
-
 byte mode = 0;
 
 
-// =====================================
-// WATCH TIME
-// =====================================
-
 unsigned long watchStartMillis;
 
-
-// =====================================
-// STOPWATCH
-// =====================================
 
 bool stopwatchRunning = false;
 
 unsigned long stopwatchStartMicros = 0;
 unsigned long stopwatchElapsedMicros = 0;
-
-
-// =====================================
-// BUTTON VARIABLES
-// =====================================
 
 bool lastStartButton = HIGH;
 bool lastModeButton = HIGH;
@@ -56,16 +32,8 @@ byte modeButtonPressCount = 0;
 #define DOUBLE_PRESS_TIME 500
 
 
-// =====================================
-// LCD UPDATE
-// =====================================
-
 unsigned long lastLCDUpdate = 0;
 
-
-// =====================================
-// SETUP
-// =====================================
 
 void setup()
 {
@@ -88,10 +56,6 @@ void setup()
   lcd.clear();
 }
 
-
-// =====================================
-// MAIN LOOP
-// =====================================
 
 void loop()
 {
@@ -117,11 +81,6 @@ void loop()
   }
 }
 
-
-// =====================================
-// BUTTON 1
-// START / STOP STOPWATCH
-// =====================================
 
 void checkStartStopButton()
 {
@@ -154,11 +113,6 @@ void checkStartStopButton()
   lastStartButton = buttonState;
 }
 
-
-// =====================================
-// BUTTON 2
-// RESET / MODE BUTTON
-// =====================================
 
 void checkModeResetButton()
 {
@@ -198,10 +152,6 @@ void checkModeResetButton()
 }
 
 
-// =====================================
-// CHECK SINGLE PRESS
-// =====================================
-
 void checkDoublePress()
 {
   if (modeButtonPressCount == 1)
@@ -222,10 +172,6 @@ void checkDoublePress()
   }
 }
 
-
-// =====================================
-// CHANGE MODE
-// =====================================
 
 void changeMode()
 {
@@ -267,11 +213,6 @@ void changeMode()
 
   lcd.clear();
 }
-
-
-// =====================================
-// REAL TIME WATCH
-// =====================================
 
 void showRealTime()
 {
@@ -320,11 +261,6 @@ void showRealTime()
 
   lcd.print("       ");
 }
-
-
-// =====================================
-// STOPWATCH
-// =====================================
 
 void showStopwatch()
 {
