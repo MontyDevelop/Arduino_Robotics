@@ -2,7 +2,7 @@
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 #define BUTTON 2
-#define BUZZER 8
+#define BUZZER 3
 byte dino[8] = {
   B00111,
   B00101,
